@@ -11,18 +11,22 @@
 
   <style>
     :root {
-      --bg: #f6fbf8;
-      /* 전체 배경 (오프화이트 + 그린톤) */
+      /* Background */
+      --bg: #f4f5f7;
+      /* 연한 회색 */
       --card: #ffffff;
-      /* 카드 배경 */
-      --text: #0f172a;
-      /* 메인 텍스트 (딥 네이비) */
-      --sub: #475569;
+
+      /* Text */
+      --text: #1f2937;
+      /* 다크 그레이 */
+      --sub: #6b7280;
       /* 서브 텍스트 */
-      --accent: #22c55e;
-      /* 포인트 그린 */
-      --accent-soft: #dcfce7;
-      /* 연한 그린 */
+
+      /* Accent (Blue) */
+      --accent: #2563eb;
+      /* 포인트 블루 */
+      --accent-soft: #dbeafe;
+      /* 연한 블루 */
     }
 
 
@@ -97,7 +101,7 @@
       height: 100%;
       border-radius: 50%;
       object-fit: cover;
-      border: 4px solid var(--accent);
+      border: 5px solid hsl(212, 50%, 50%);
     }
 
 
@@ -109,7 +113,8 @@
 
     .tag {
       background: var(--accent-soft);
-      color: #15803d;
+      color: #1e40af;
+      /* 진한 블루 */
       padding: 6px 12px;
       border-radius: 999px;
       font-size: 13px;
@@ -261,7 +266,7 @@
             - 사내 프로젝트 개발 및 SI 프로젝트 참여
           </p>
           <p>
-            - API/Batch 개발/운영
+            - Restful API/Batch 개발/운영
           </p>
           <p>
             - IDC 인프라 환경에서 개발/운영
