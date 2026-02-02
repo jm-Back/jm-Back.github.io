@@ -101,7 +101,7 @@
       height: 100%;
       border-radius: 50%;
       object-fit: cover;
-      border: 5px solid hsl(212, 50%, 50%);
+      border: 6px solid rgb(183, 214, 250);
     }
 
 
@@ -113,7 +113,7 @@
 
     .tag {
       background: var(--accent-soft);
-      color: #1e40af;
+      color: hwb(0 11% 89%);
       /* 진한 블루 */
       padding: 6px 12px;
       border-radius: 999px;
@@ -191,6 +191,20 @@
       padding-top: -10px;
       font-size: 14px;
     }
+
+    .project_main {
+      width: 240PX;
+
+    }
+
+    .mouse {
+      cursor: pointer;
+    }
+
+    .project_text {
+      font-weight: bold;
+      padding-bottom: 20px;
+    }
   </style>
 </head>
 
@@ -201,7 +215,7 @@
     <header class="header">
 
       <div class="header-photo">
-        <img src='/assets/me-DUHUxd2I.jpg' alt="profile" />
+        <img src='./me.jpg' alt="profile" />
       </div>
 
       <div class="header-text">
@@ -231,7 +245,7 @@
 
       <div class="grid">
         <div class="card">
-          <h3>금 자산 가계부 - `금장부`</h3>
+          <h3>금 자산 관리 프로그램 - `금장부`</h3>
           <p>
             금 납입 내역, 자산 비율, 시세 변동을 시각화한 개인 프로젝트.
           </p>
@@ -240,15 +254,20 @@
           </p>
           <hr>
           <p>
-            <strong>Tech</strong> · JAVA · Spring Boot · JPA · MySQL · React · Docker / Kubernetes
+            <strong>Tech</strong> · JAVA · Spring Boot · JPA · MySQL · React · AWS EC2
           </p>
         </div>
         <div class="grid-2">
+          <a href="http://43.200.169.127/" target="_blank">
+            <div class="card mouse">
+              <div class="project_text">🖱️ 운영 사이트 접속</div>
+
+              <img class="project_main" src='./프로젝트_메인.png' alt="profile" />
+
+            </div>
+          </a>
           <div class="card">
-            <h4>🖱️ 운영 사이트 접속</h4>
-          </div>
-          <div class="card">
-            <h4>🖱️ 프로젝트 문서</h4>
+            <div class="project_text">🖱️ 프로젝트 문서</div>
           </div>
         </div>
 
@@ -271,6 +290,19 @@
           <p>
             - IDC 인프라 환경에서 개발/운영
           </p>
+        </div>
+        <div class="card">
+          <h3>(주) 에듀윌 (마케팅본부 커뮤니티마케팅2팀) </h3><span class="sub-text">2020.09.14 ~ 2022.04.30 (1년 7개월) </span>
+          <p>
+            - 온라인 제휴/협업 마케팅 기획
+          </p>
+          <p>
+            - 공식 SNS 운영 및 콘텐츠 제작
+          </p>
+          <p>
+            - 에듀윌 토익 TF팀 참여
+          </p>
+
         </div>
       </div>
       <div class="grid">
@@ -318,9 +350,10 @@
           <h3>학위</h3>
           <p>
             <strong>한국방송통신대학교 컴퓨터과학과</strong> <br> (2025.03~2027.02)
+            <br> 4.1/4.5
           </p>
           <p>
-            서경대학교 문화콘텐츠학부 <br> (2015.03~2020.02)
+            서경대학교 문화콘텐츠학부 <br> (2015.03~2020.02) <br> 3.81/4.5
           </p>
         </div>
         <div class="card">
